@@ -1,0 +1,25 @@
+<app-navbar producer="true"></app-navbar>
+<div class="container-fluid navbar-top-margin p-5 text-center">
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>#</th>
+                <th>Duration</th>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Scheduled Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let rundownItem of socketService.rundownItems">
+                <td [style.background-color]="rundownItem.type.color"></td>
+                <td>{{rundownItem.index + 1}}</td>
+                <td>{{rundownItem.duration | date: "time"}}</td>
+                <td>{{rundownItem.name}}</td>
+                <td>{{rundownItem.type.name}}</td>
+                <td>{{rundownItem.start}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

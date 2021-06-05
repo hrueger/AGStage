@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "./variables.scss";
+@import "~bootstrap/scss/bootstrap.scss";
+@import "~ngx-toastr/toastr";
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+.navbar-top-margin {
+  margin-top: 3.3rem;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.bg-dark-2 {
+  background-color: #303841;
+}
+
+.form-control {
+  background-color: #45505e;
+}
+
+table * {
+  color: #fff;
+}

@@ -1,0 +1,63 @@
+{
+  "name": "agstage",
+  "version": "1.0.0",
+  "description": "The frontend for the AGStage",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/multimediaAG/AGStage.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "H. Rueger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/multimediaAG/AGStage/issues"
+  },
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build --prod",
+    "test": "ng test",
+    "lint": "eslint ."
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^12.0.2",
+    "@angular/common": "~12.0.2",
+    "@angular/compiler": "~12.0.2",
+    "@angular/core": "~12.0.2",
+    "@angular/forms": "~12.0.2",
+    "@angular/localize": "^12.0.2",
+    "@angular/platform-browser": "~12.0.2",
+    "@angular/platform-browser-dynamic": "~12.0.2",
+    "@angular/router": "~12.0.2",
+    "@angular/service-worker": "~12.0.2",
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@ng-bootstrap/ng-bootstrap": "^9.1.1",
+    "angular-file-uploader": "^7.0.3",
+    "bootstrap": "^5.0.1",
+    "ngx-countdown": "^12.0.0",
+    "ngx-toastr": "^14.0.0",
+    "rxjs": "~7.1.0",
+    "tslib": "^2.2.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~12.0.2",
+    "@angular/cli": "~12.0.2",
+    "@angular/compiler-cli": "~12.0.2",
+    "@angular/language-service": "~12.0.2",
+    "@schoolsquirrel/eslint-config-squirrel": "^0.1.2",
+    "@types/node": "~15.6.1",
+    "@typescript-eslint/eslint-plugin": "4.25.0",
+    "@typescript-eslint/parser": "4.25.0",
+    "eslint": "^7.27.0",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-jsdoc": "35.0.0",
+    "eslint-plugin-prefer-arrow": "1.2.3",
+    "eslint-plugin-prettier": "^3.4.0",
+    "ts-node": "~10.0.0",
+    "typescript": "~4.2.4"
+  }
+}
