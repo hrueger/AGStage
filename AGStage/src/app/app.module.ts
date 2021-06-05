@@ -7,7 +7,6 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { registerLocaleData } from "@angular/common";
 import localeDe from "@angular/common/locales/de";
 import { CountdownModule } from "ngx-countdown";
-import { AngularFileUploaderModule } from "angular-file-uploader";
 import { ServiceWorkerModule } from "@angular/service-worker";
 import { SafePipe } from "./_pipes/safe.pipe";
 import { AppRoutingModule } from "./app-routing.module";
@@ -50,7 +49,6 @@ registerLocaleData(localeDe);
         HttpClientModule,
         CountdownModule,
         ToastrModule.forRoot(),
-        AngularFileUploaderModule,
         ServiceWorkerModule.register("ngsw-worker.js", {
             enabled: environment.production,
             // Register the ServiceWorker as soon as the app is stable

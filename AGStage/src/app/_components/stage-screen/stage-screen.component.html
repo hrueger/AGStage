@@ -1,1 +1,49 @@
-<p>stage-screen works!</p>
+<div class="fullscreen container-fluid d-flex flex-column">
+    <div class="row flex-fill">
+        <div class="col box text-center d-flex justify-content-center flex-column">
+            <div class="caption">Remaining Rundown Item Time</div>
+            <div class="fs-0"><countdown [config]="{leftTime: 135, format: 'HH:mm:ss:S'}"></countdown></div>
+        </div>
+        <div class="col box text-center d-flex justify-content-center flex-column">
+            <div class="caption">Current Rundown Item</div>
+            <div class="fs-05">Maskenvideo</div>
+            <div>
+                <span class="badge bg-success fs-1 mt-4">Einpieler</span>
+            </div>
+        </div>
+        <div class="col box text-center d-flex justify-content-center flex-column">
+            <div class="caption">Current Time</div>
+            <div class="fs-0"><countdown [config]="{leftTime: 1500, format: 'HH:mm:ss:S'}"></countdown></div>
+        </div>
+    </div>
+    <div class="row flex-fill">
+        <div class="col box text-center d-flex justify-content-center flex-column">
+            <div class="caption">Upcoming Rundown Items</div>
+            <table class="table text-left">
+                <tbody>
+                    <tr>
+                        <td>08</td>
+                        <td>Preisverleihung AGtiv</td>
+                        <td><countdown [config]="{leftTime: 200, format: 'HH:mm:ss:S'}"></countdown></td>
+                    </tr>
+                    <tr>
+                        <td>08</td>
+                        <td>Preisverleihung Tippspiel</td>
+                        <td><countdown [config]="{leftTime: 400, format: 'HH:mm:ss:S'}"></countdown></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col box text-center d-flex justify-content-center flex-column">c</div>
+        <div class="col box text-center d-flex justify-content-center flex-column">d</div>
+    </div>
+    <div class="row flex-fill">
+        <div class="col box text-center d-flex justify-content-center flex-column">c</div>
+        <div class="col box text-center d-flex justify-content-center flex-column">c</div>
+        <div class="col box text-center d-flex justify-content-center flex-column">
+            <div>
+                <span class="badge bg-danger fs-0">ON AIR</span>
+            </div>
+        </div>
+    </div>
+</div>
