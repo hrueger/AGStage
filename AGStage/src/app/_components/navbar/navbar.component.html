@@ -11,9 +11,6 @@
                     <a class="nav-link" routerLink="/producer/rundown" (click)="navbarCollapsed = true">Rundown</a>
                 </li>
                 <li class="nav-item" routerLinkActive="active" *ngIf="authenticationService.loggedIn && authenticationService.currentUser.isProducer && producer">
-                    <a class="nav-link" routerLink="/producer/stages" (click)="navbarCollapsed = true">Stage Displays</a>
-                </li>
-                <li class="nav-item" routerLinkActive="active" *ngIf="authenticationService.loggedIn && authenticationService.currentUser.isProducer && producer">
                     <a class="nav-link" routerLink="/producer/users" (click)="navbarCollapsed = true">Users</a>
                 </li>
                 <li class="nav-item" routerLinkActive="active" *ngIf="authenticationService.loggedIn && authenticationService.currentUser.isProducer && producer">

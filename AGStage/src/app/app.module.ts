@@ -20,7 +20,6 @@ import { environment } from "../environments/environment";
 import { ProducerComponent } from "./_components/producer/producer.component";
 import { StageScreenComponent } from "./_components/stage-screen/stage-screen.component";
 import { RundownComponent } from "./_components/rundown/rundown.component";
-import { StagesComponent } from "./_components/stages/stages.component";
 import { UsersComponent } from "./_components/users/users.component";
 import { SettingsComponent } from "./_components/settings/settings.component";
 
@@ -36,7 +35,6 @@ registerLocaleData(localeDe);
         ProducerComponent,
         StageScreenComponent,
         RundownComponent,
-        StagesComponent,
         UsersComponent,
         SettingsComponent,
     ],

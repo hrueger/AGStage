@@ -6,7 +6,6 @@ import { AuthenticationGuard } from "./_guards/authentication.guard";
 import { ProducerGuard } from "./_guards/producer.guard";
 import { StageScreenComponent } from "./_components/stage-screen/stage-screen.component";
 import { ProducerComponent } from "./_components/producer/producer.component";
-import { StagesComponent } from "./_components/stages/stages.component";
 import { RundownComponent } from "./_components/rundown/rundown.component";
 import { UsersComponent } from "./_components/users/users.component";
 
@@ -23,11 +22,6 @@ const routes: Routes = [
     {
         path: "producer/rundown",
         component: RundownComponent,
-        canActivate: [AuthenticationGuard, ProducerGuard],
-    },
-    {
-        path: "producer/stages",
-        component: StagesComponent,
         canActivate: [AuthenticationGuard, ProducerGuard],
     },
     {
